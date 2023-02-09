@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import bootstrap full CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src='script.js' defer></script>
+    <link href="../style.css" rel='stylesheet'>
+
+    <title>TeamProject</title>
+
+</head>
+
+
+<body class='bg-white'style="font-family:MV boli">
+
+     <nav class="navbar navbar-expand-sm navbar-dark border border-success bg-dark">
+        <a class="navbar-brand text-success" href="#">Fridge Daddy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+        
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a name="dropDown" class="dropdown-header">Salads</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🍗🥬Chicken Caesar Salad</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🍅Caprese Salad</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🐔Chinese Chicken Salad</a>
+                        <div name="dropDown" class="dropdown-divider"></div>
+                        <a name="dropDown" class="dropdown-header">Pastas</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🐔Penne Chicken Alfredo</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🍝Spaghetti and Meatballs</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🍽Farfalle con Suco el Pollo Bianco</a>
+                        <div name="dropDown" class="dropdown-divider"></div>
+                        <a name="dropDown" class="dropdown-header">Meat Recipes</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🥩Steak and Asparagus</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🥩Porkchop with Mashed Potatoes and Ranch Beans</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🍤Coconut Shrimp Skewers with Grilled Peppersc</a>
+                        <a name="dropDown" class="dropdown-item" href="#"></a>
+                        <div name="dropDown" class="dropdown-divider"></div>
+                        <a name="dropDown" class="dropdown-header">Soups and Sandwiches</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🍖Grilled Ham and Cheese with Fries</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🌶Chili with Meat</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🍔🍟Cheeseburger with French Fries</a>
+                        <a name="dropDown" class="dropdown-item" href="#">🧀Club Sandwich</a>
+                        <div name="dropDown" class="dropdown-divider"></div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Uber Eats</a>
+                        <a class="dropdown-item" href="#">Grub Hub</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Door Dash</a>
+                    </div>
+                </li>
+        
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div id="fridgeDaddyCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#fridgeDaddyCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#fridgeDaddyCarousel" data-slide-to="1"></li>
+            <li data-target="#fridgeDaddyCarousel" data-slide-to="2"></li>
+            <li data-target="#fridgeDaddyCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./pics/pexels-tim-mossholder-3345876.jpg" style = "height: 600px"class=" w-100" alt="...">
+           
+                <div class="carousel-caption shadow-lg font-weight-bolder border border-success bg-dark d-md-block">
+                    <h3>Eat healthy and delicious meals anytime of the day with recipes at your fingertips!</h3>
+                    
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./pics/pexels-one-shot-2890387.jpg" style = "height: 600px"class=" w-100" alt="...">
+                <div class="carousel-caption border border-success bg-dark  d-md-block">
+                    <h3>Easy recipes that you can make at home by yourself!</h3>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./pics/pexels-rene-asmussen-2544829.jpg" style = "height: 600px"class=" w-100" alt="...">
+                <div class="carousel-caption border border-success    bg-dark d-md-block">
+                    <h1>For Chefs of all Levels!!!</h1>
+                    <h5>👩‍🍳Don't be afraid to unleash your inner Chef!</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./pics/pexels-ivan-torres-1374651.jpg" style = "height: 600px"class=" w-100" alt="...">
+                <div class="carousel-caption border border-success    bg-dark d-md-block">
+                    <h3>This is your chance to eat healthy!</h3>
+                </div>
+            </div>
+           
+        </div>
+        <a class="carousel-control-prev" href="#fridgeDaddyCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#fridgeDaddyCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='container-fluid bg-success p-2'>
+        <div class='row bg-white p-2 m-2'>
+            <div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                <h1><b>Fridge Daddy</b></h1>
+                <!-- <hr> -->
+                <p>Save Money! Utilize what you already have! Access a large selection of recipes! Enter the ingredients that you already have in your refrigerator and pantry, and we will provide you with great and nutritious recipes! Save Money! Utilize what you already have! Access a large selection of recipes! Enter the ingredients that you already have in your refrigerator and pantry, and we will provide you with great and nutritious recipes!Save Money! Utilize what you already have! Access a large selection of recipes! Enter the ingredients that you already have in your refrigerator and pantry, and we will provide you with great and nutritious recipes!
+                </p> 
+            </div>
+        </div>
+    </div> 
+
+    <h2 class='container-fluid bg-dark p-2 text-center text-info'>Choose Your Ingredients:</h2>
+
+    <div class='container-fluid bg-dark p-2'>
+        <div class='row bg-success p-2 m-2'>
+
+            <div class="col col-xl-3 col-lg-3 col-md-6 pt-3 col-sm-6 col-12 bg-white border border-dark rounded text-center">
+                <p>
+                    <a class="btn btn-primary border border-success" data-toggle="collapse" href="#meatsCheckboxes" role="button" aria-expanded="false" aria-controls="meatsCheckboxes">MEATS</a>
+                </p>
+                 
+                <div class="collapse shadow-lg" id="meatsCheckboxes">
+                    <div class="card card-body shadow-lg">
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients" id="teamIngredientsChicken" name='Chicken' value='Chicken'>
+                            <label class="custom-control-label" for="teamIngredientsChicken">Chicken</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients" id="teamIngredientsFish" name='Fish' value='Fish'>
+                            <label class="custom-control-label" for="teamIngredientsFish">Fish</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients" id="teamIngredientsTurkey" name='Turkey' value='Turkey'>
+                            <label class="custom-control-label" for="teamIngredientsTurkey">Turkey</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsSteak" name="Steak" value="Steak">
+                            <label class='custom-control-label' for='teamIngredientsSteak'>Steak</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsGround" name="Ground Beef " value="Ground Beef ">
+                            <label class='custom-control-label' for='teamIngredientsGround'>Ground Beef </label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsShrimp" name="Shrimp" value="Shrimp">
+                            <label class='custom-control-label' for='teamIngredientsShrimp'>Shrimp</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsPork" name="Pork Chop" value="Pork Chop">
+                            <label class='custom-control-label' for='teamIngredientsPork'>Pork Chop</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsHam" name="Ham" value="Ham">
+                            <label class='custom-control-label' for='teamIngredientsHam'>Ham</label>
+                            <br>
+                        </div>
+          
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-xl-3 col-lg-3 col-md-6 pt-3 col-sm-6 col-12 bg-white border border-dark rounded text-center">
+                <p>
+                    <a class="btn btn-primary border border-success" data-toggle="collapse" href="#vegetablesCheckboxes" role="button" aria-expanded="false" aria-controls="vegetablesCheckboxes">VEGETABLES</a>
+                </p>
+                     
+                <div class="collapse shadow-lg" id="vegetablesCheckboxes">
+                    <div class="card card-body shadow-lg">
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients" id="teamIngredientsBroccoli" name='Broccoli' value='Broccoli'>
+                            <label class="custom-control-label" for="teamIngredientsBroccoli">Broccoli</label>
+                            <br>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsLettuce" name="Lettuce" value="Lettuce">
+                            <label class='custom-control-label' for='teamIngredientsLettuce'>Lettuce</label>
+                            <br>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsTomatoes" name="Tomatoes" value="Tomatoes">
+                            <label class='custom-control-label' for='teamIngredientsTomatoes'>Tomatoes</label>
+                            <br>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsGreen" name="Green Peppers" value="Green Peppers">
+                            <label class='custom-control-label' for='teamIngredientsGreen'>Green Peppers</label>
+                            <br>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsOnions" name="Onions" value="Onions">
+                            <label class='custom-control-label' for='teamIngredientsOnions'>Onions</label>
+                            <br>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsAsparagus" name="Asparagus" value="Asparagus">
+                            <label class='custom-control-label' for='teamIngredientsAsparagus'>Asparagus</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsCelery" name="Celery" value="Celery">
+                            <label class='custom-control-label' for='teamIngredientsCelery'>Celery</label>
+                            <br>
+                        </div>
+                        
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsCabbage" name="Cabbage" value="Cabbage">
+                            <label class='custom-control-label' for='teamIngredientsCabbage'>Cabbage</label>
+                            <br>
+                        </div>
+
+                       
+
+                    </div>      
+                </div>
+            </div>
+
+            <div class="col col-xl-3 col-lg-3 col-md-6 pt-3 col-sm-6 col-12 bg-white border border-dark rounded text-center">
+                <p>
+                    <a class="btn btn-primary border border-success" data-toggle="collapse" href="#dairyCheckboxes" role="button" aria-expanded="false" aria-controls="dairyCheckboxes">DAIRY</a>
+                </p>
+                         
+                <div class="collapse shadow-lg" id="dairyCheckboxes">
+                    <div class="card card-body shadow-lg">
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients" id="teamIngredientsParmesan" name='Parmesan' value='Parmesan'>
+                            <label class="custom-control-label" for="teamIngredientsParmesan">Parmesan</label>
+                            <br>
+                        </div>
+        
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsCheddar" name="Cheddar" value="Cheddar">
+                            <label class='custom-control-label' for='teamIngredientsCheddar'>Cheddar</label>
+                            <br>
+                        </div>
+        
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsProvolone" name="Provolone" value="Provolone">
+                            <label class='custom-control-label' for='teamIngredientsProvolone'>Provolone</label>
+                            <br>
+                        </div>
+        
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsSwiss" name="Swiss" value="Swiss">
+                            <label class='custom-control-label' for='teamIngredientsSwiss'>Swiss</label>
+                            <br>
+                        </div>
+        
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsMilk" name="Milk" value="Milk">
+                            <label class='custom-control-label' for='teamIngredientsMilk'>Milk</label>
+                            <br>
+                        </div>
+        
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsEggs" name="Eggs" value="Eggs">
+                            <label class='custom-control-label' for='teamIngredientsEggs'>Eggs</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsYogurt" name="Yogurt" value="Yogurt">
+                            <label class='custom-control-label' for='teamIngredientsYogurt'>Yogurt</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsSour" name="Sour Cream" value="Sour Cream">
+                            <label class='custom-control-label' for='teamIngredientsSour'>Sour Cream</label>
+                            <br>
+                        </div>
+
+                    </div>            
+                </div>
+            </div>
+
+            <div class="col col-xl-3 col-lg-3 col-md-6 pt-3 col-sm-6 col-12 bg-white border border-dark rounded text-center">
+                <p>
+                    <a class="btn btn-primary border border-success" data-toggle="collapse" href="#dryGoodsCheckboxes" role="button" aria-expanded="false" aria-controls="dryGoodsCheckboxes">DRY GOODS</a>
+                </p>
+                             
+                <div class="collapse shadow-lg" id="dryGoodsCheckboxes">
+                    <div class="card card-body shadow-lg">
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients" id="teamIngredientsBread" name='Bread' value='Bread'>
+                            <label class="custom-control-label" for="teamIngredientsBread">Bread</label>
+                            <br>
+                        </div>
+            
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsBun" name="Bun" value="Bun">
+                            <label class='custom-control-label' for='teamIngredientsBun'>Bun</label>
+                            <br>
+                        </div>
+            
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsSpaghetti" name="Spaghetti" value="Spaghetti">
+                            <label class='custom-control-label' for='teamIngredientsSpaghetti'>Spaghetti</label>
+                            <br>
+                        </div>
+            
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsPenne" name="Penne" value="Penne">
+                            <label class='custom-control-label' for='teamIngredientsPenne'>Penne</label>
+                            <br>
+                        </div>
+            
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsCroutons" name="Croutons" value="Croutons">
+                            <label class='custom-control-label' for='teamIngredientsCroutons'>Croutons</label>
+                            <br>
+                        </div>
+            
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsRice" name="Rice" value="Rice">
+                            <label class='custom-control-label' for='teamIngredientsRice'>Rice</label>
+                            <br>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsBeans" name="Beans" value="Beans">
+                            <label class='custom-control-label' for='teamIngredientsBeans'>Beans</label>
+                            <br>
+                        </div>
+
+                        <div class="custom-control custom-checkbox shadow-lg m-1">
+                            <input type="checkbox" class="custom-control-input greedyients"  id="teamIngredientsPotatoes" name="Potatoes" value="Potatoes">
+                            <label class='custom-control-label' for='teamIngredientsPotatoes'>Potatoes</label>
+                            <br>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+               
+    <div class="container-fluid bg-dark text-center text-info p-2">
+     
+        <h2>SELECTED INGREDIENTS:</h2>
+        <div class='container bg-success btn-lg btn-block'>
+            <div class='row border-white p-2 m-2'>
+                <div class='bg-white border border-white p-2 m-2 col col-xl-12 col-lg-12 col-md-12 col-md-12 col-sm-12 col-12'>
+                    <ul id='myList'></ul>
+                    <button id='recipeButton' class="btn btn-warning  border border-success"><u>CLEAR SELECTION:</u></button>
+                </div>
+            </div>
+        </div>
+        <br>
+      
+    </div> 
+       
+    <div class='container bg-dark'>
+        <div class='row p-2 m-2'>
+            <div id="resultContainer" class='col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ml-50'>  
+            </div> 
+        </div>
+    </div>
+     
+                                        
+    <!-- import jquery -->
+    <script type ="text/javascript" src="js/jquery.js"></script>
+    <!-- import bootstrap scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- import D3.js -->
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>               

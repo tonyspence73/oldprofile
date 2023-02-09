@@ -1,0 +1,50 @@
+#main {
+    background-color: olive;
+}
+
+#title {
+    font-size: 40px;
+    border: solid;
+    border-width: 7px;
+    border-color: rgb(77, 42, 31);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(245, 209, 197);
+    text-shadow: 2px 2px rgb(129, 110, 73)
+    
+}
+
+#mamaColeen {
+    height: 300px;
+    width: 300px;
+}
+
+
+#img-div {
+    margin-top: 50px;
+    height: 100%;
+    width:30%;
+    text-align: center;
+    border-width: 5px;
+    border: solid;
+    margin-left:470px;
+    margin-right: 650px;
+    padding-top:20px;
+    background-color:rgb(88, 88, 3);
+    border-color: rgb(77, 42, 31);
+}
+
+#tributeInfo {
+    font-size: 30px;
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(77, 42, 31);
+    background-color:rgb(243, 177, 155);
+    text-align: justify;
+
+}
+
+#tributeLink {
+    font-size: 25px;
+    text-align: center; rgb(148, 125, 82);
+}

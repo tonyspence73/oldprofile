@@ -1,0 +1,12 @@
+
+  #thumbnail{ 
+    width: 22px;
+    height:22px;
+
+} 
+
+
+  
+  #thumbnail:hover { 
+     transform: scale(2.5);
+  } 

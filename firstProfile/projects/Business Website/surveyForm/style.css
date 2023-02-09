@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(146, 146, 5);
+}
+#title{
+    background-color: rgb(88,88,3);
+    border-style: outset;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-width: 7px;
+    text-shadow: 2px 2px rgb(243, 177, 155);
+    
+ 
+}
+#description {
+    background-color:  rgb(243, 177, 155);
+    padding: 0px 50px 0px 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-width: 7px;
+    border-style: outset;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(156, 107, 91);
+    
+}
+#survey-form{
+    padding: 10px 0px 10px 0px;
+    border:outset;
+    text-align:center;
+    font-size: 18px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color:  rgb(88, 88, 3);
+    border-width: 6px;
+    
+}

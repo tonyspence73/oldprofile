@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <body>
+    <header id="title">
+        <h1>Mama Coleen's Bakery</h1>
+    </header>
+    <div id="description">
+        <p><b>Please take the time to fill out a brief survey about desserts and baked items:</b></p>
+    </div>
+    <form id="survey-form">
+        <label for="name" id="name-label">
+            <input type="text" id="name" placeholder="Name"required><br><br>
+        </label>
+        <label for="email" id="email-label">
+            <input type="email" id="email" placeholder="Email"required><br><br>
+        </label>
+        <label for="number" id="number-label">
+            <input type="number" id="number" placeholder="your age"><br><br>
+        </label>
+        <hr>
+        <p><em><b>Which baked goodies does your family eat the most?</em></b></p>
+            <input type="radio" id="dine-in" name="favexp" value="dine-in">
+            <label for="dine-in">Cakes</label><br>
+            <input type="radio" id="dine-out" name="favexp" value="dine-out">
+            <label for="css">Pies</label><br>
+            <input type="radio" id="bar" name="favexp" value="bar">
+            <label for="bar">Cookies</label>
+            
+        <hr>
+        <p><em><b>Which items from our bakery have you tried?</em></b></p>
+        <label>
+            <input type="checkbox" name="items"value="appetizers">Cakes
+        </label>
+        <label>
+            <input type="checkbox" name="items" value="salads">Pies
+        </label>
+        <label>
+            <input type="checkbox" name="items" value="sandwiches">Cookies
+        </label>
+        <label>
+            <input type="checkbox" name="items" value="entrees">Specialties
+        </label>
+        <label>
+            <input type="checkbox" name="items" value="desserts">Coffees
+        </label>
+        <hr>
+        <textarea rows="10" cols="50" placeholder="Tell us what you liked most"></textarea>
+        <button type="submit">submit</button>
+        
+               
+
+    </form>
+    </body>
+</html>

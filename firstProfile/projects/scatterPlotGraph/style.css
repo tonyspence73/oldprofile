@@ -1,0 +1,21 @@
+svg{
+    background:lightskyblue;
+    border:solid;
+    box-shadow: 5px 5px 5px black;
+}
+#timeInMin{
+    transform: rotate(270deg);
+    
+}
+#title{
+    font-size:25px;
+    font-weight:bolder;
+
+    
+}
+.noDope-Dot{
+    fill:rgb(190, 96, 8);
+}
+.Dope-Dot {
+    fill:rgb(34, 122, 211)
+}

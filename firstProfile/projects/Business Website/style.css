@@ -1,0 +1,153 @@
+body {
+    background:url("./images/pexels-andrea-piacquadio-3769999.jpg");
+    background-size: cover;
+}
+
+#header {
+    background-color:olive;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(235, 164, 156);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media screen and (max-width:600px) {
+  #navBar {
+    float: none;
+  }
+}
+.navLink {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(235, 164, 156);
+    
+  }
+  
+  .navLink li {
+    float: left;
+  }
+  
+  .navLink li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+  }
+  
+  .navLink li a:hover {
+    background-color: rgb(80, 55, 55);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding: 25px;
+    height: 200px;
+    border:solid; 
+    position: relative;
+    margin-left: 4%;
+    margin-top: 50px;
+    background-color: rgb(235, 164, 156);
+    font-size: 30px;
+    padding-bottom: 55px;
+    border-color:rgb(80, 55, 55);
+    box-shadow: 10px 10px 5px black;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #about {
+      font-size: 30px;
+      margin-top: 200px;
+  }
+  .imgClass{
+      width: 20px;
+      height: 15px;
+      display: block;
+  }
+
+.column img {
+    width: 100%;
+    height: 100%;
+}
+#footer {
+    background-color: olive;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+#supporters{
+    margin-top: -115px;
+    margin-left: 680px;
+}
+#copyright{
+    float: right;
+    margin-top: -20px;
+    
+}
+
+#topPage {
+    text-align: center;
+    border: solid;
+    margin: 0px 770px 0px 770px;
+    border-color:rgb(80, 55, 55);
+    background-color: rgb(235, 164, 156);
+    box-shadow: 5px 5px 5px black;
+}
+
+h2{
+  text-shadow: 2px 2px rgb(110, 84, 84);
+  font-size: 26px;
+}
+#header-img {
+  height: 60px;
+  width: 60px;
+  border:solid;
+  background-color: rgb(235, 164, 156);
+}
+#form {
+  background-color: olive;
+  margin-right:1160px;
+  padding-bottom: 20px;
+  box-shadow:5px 5px 5px black;
+}
+#video {
+  margin-top: 50px;
+  height: 100px;
+  width: 100px;
+  background-color: olive;
+  box-shadow:5px 5px 5px black;
+  text-align: center;
+
+}
+#fruitTart {
+  width: 60px;
+  height: 60px;
+  margin-left: 18px;
+  padding-bottom: 10px;
+  margin-right: 18px;
+}
+
+
+  
+
+
+
+
+
+  
+
+    
